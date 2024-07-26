@@ -1,18 +1,10 @@
 # Mapple II Computer Software for the RP2040
-
 # Designed with love by Mapple Computer
-# Have Fun using System 1 (Beta) for Mapple II
-# Only for use on testing systems or the actual Mapple II
 
 # Modules needed
 from time import sleep
-from machine import Pin
-led = Pin(25, Pin.OUT)
 
 # Startup
-led.toggle()
-sleep(1)
-led.toggle()
 doc = 'No doc saved from Writer, yet.'
 print ('Welcome to Mapple II System 1')
 print ('Type help to see commands :) ')
@@ -60,13 +52,10 @@ while True:
         print (sum)
         
     if PROGRAM == 'about':
-        led.toggle()
         print ('About this Computer')
         print ('Model: Mapple II')
         print ('Software: MappleII-System 0.2')
         print ('CPU: RP2040')
-        sleep(0.5)
-        led.toggle()
         
     if PROGRAM == 'type':
         print ('Welcome to BigCart Enterprises Writer')
@@ -129,9 +118,5 @@ while True:
         print ('type  (writer)')
         print ('view-doc (view writer document)')
         print ('about (About this Computer)')
-        
-    if PROGRAM == 'led':
-        led.toggle()
-        sleep(2)
-        led.toggle()
+    
         
