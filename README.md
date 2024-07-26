@@ -1,2 +1,3 @@
-# parrissoft
-Simple Python based, command line, simple operating system Called Parrisoft
+# Parrissoft
+Simple Python based, command line, simple operating system Called Parrissoft
+Also feel free to use however, but a little credit is nice.
